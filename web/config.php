@@ -30,7 +30,7 @@ I can provide movie / series subtitles.
 Type the movie / series name,
 and let me try to do the megick..!
 
-Subscribe ℹ️ @SpEcHlDe if you ❤️ using this bot!
+Subscribe ℹ️ @Cine_BroS if you ❤️ using this bot!
 EOM;
 
 $GLOBALS["CHECKING_MESSAGE"] = "🤔";
@@ -165,7 +165,7 @@ function get_sub_i($sub_id, $user_id) {
     // apparently, the LEGAL disclaimer was too LOONG
     // hence, not displaying it
     // $tg_message_caption .= $sub_legal_disclaimer;
-    $tg_message_caption .= "\n\nSubtitle provided by @GetSubtitleBot from @SpEcHlDe.";
+    $tg_message_caption .= "\n\nSubtitle provided by @cbsubtitiles_bot from @Cine_BroS.";
     
     return array(
         "chat_id" => $user_id,
